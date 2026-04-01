@@ -11,3 +11,4 @@ Dieses Skript bereinigt Chat-Nachrichten von in diesem fall dem Wort "dang".
 
 ## 2. Lists Practice (`lists_practice.py`)
 Grundlagenübungen zu Loops und Listen-Operationen.
+Nimmt eine Liste mit Zahlen entgegen und gibt eine neue Liste zurück mit nur den ungeraden Zahlen
