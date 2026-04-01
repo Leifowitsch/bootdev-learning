@@ -1,6 +1,6 @@
 def filter_messages(messages):
     if len(messages) == 0:
-        return
+        return [],[]
     liste_ohne_dang = []
     dang_anzahl = []
     dang_counter = 0
@@ -12,9 +12,9 @@ def filter_messages(messages):
             if words[i] == "dang":
                 dang_counter +=1
                 del words[i]
-            sentence = " ".join(words)
-            liste_ohne_dang.append(sentence)
-            dang_anzahl.append(dang_counter)
+        sentence = " ".join(words)
+        liste_ohne_dang.append(sentence)
+        dang_anzahl.append(dang_counter)
     return liste_ohne_dang, dang_anzahl
 
 messagess = [
