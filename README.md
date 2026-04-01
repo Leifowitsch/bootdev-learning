@@ -10,5 +10,5 @@ Dieses Skript bereinigt Chat-Nachrichten von in diesem fall dem Wort "dang".
 * **Lösung:** Rückwärts-Iteration (`range(len-1, -1, -1)`), damit die Indizes beim Löschen stabil bleiben.
 
 ## 2. Lists Practice (`lists_practice.py`)
-Grundlagenübungen zu Loops und Listen-Operationen.
-Nimmt eine Liste mit Zahlen entgegen und gibt eine neue Liste zurück mit nur den ungeraden Zahlen
+* **Grundlagenübungen zu Loops und Listen-Operationen.
+* **Nimmt eine Liste mit Zahlen entgegen und gibt eine neue Liste zurück mit nur den ungeraden Zahlen
